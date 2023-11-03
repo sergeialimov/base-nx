@@ -2,7 +2,10 @@
   "name": "@base-nx-2/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "nx serve base-nx-2",
+    "build": "nx build base-nx-2"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
